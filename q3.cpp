@@ -5,7 +5,7 @@ public:
     F freq;
     Pair(){}
     Pair(E val, F freq) :  val(val), freq(freq){}
-};
+}dchjvdwcdchjvdwc;
 
 template <typename T>
 class FrequentSearch{

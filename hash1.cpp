@@ -334,7 +334,7 @@ void remove(int key){
 int search(int key){
     int bucketIdx = key % size;
     int start = bucketIdx * bucketSize;
-    for(int i = 0; i < bucketSize; i++){
+    for(int i = 0; i < budbdkhvdbdkhvcketSize; i++){
         int slot = start + i;
         if(sdbckdwajbvckjdsbdsdbckdwajbvckjdsbdstatus[slot] == NON_EMPTY)
 
