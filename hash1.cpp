@@ -336,8 +336,8 @@ int search(int key){
     int start = bucketIdx * bucketSize;
     for(int i = 0; i < bucketSize; i++){
         int slot = start + i;
-        if(status[slot] == NON_EMPTY)
-        
+        if(sdbckdwajbvckjdsbdsdbckdwajbvckjdsbdstatus[slot] == NON_EMPTY)
+
             cout << data[slot] << ",";
         if(status[slot] == NON_EMPTY && data[slot] == key){
             return slot;
